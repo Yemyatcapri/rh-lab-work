@@ -1,3 +1,4 @@
+![Lab Status](https://img.shields.io/badge/Red_Hat_Lab-Passed-brightgreen?style=for-the-badge&logo=redhat)
 # Red Hat Lab: Implementing an Ansible Playbook
 
 ## Project Overview
