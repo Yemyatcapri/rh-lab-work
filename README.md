@@ -1,23 +1,20 @@
-![Lab Status](https://img.shields.io/badge/Red_Hat_Lab-Passed-brightgreen?style=for-the-badge&logo=redhat)
-# Red Hat Lab: Implementing an Ansible Playbook
+# Red Hat Enterprise Linux Automation Portfolio
 
-## Project Overview
-This project demonstrates how to construct and run an Ansible Playbook to automate the installation and configuration of a web and database stack on a Red Hat Enterprise Linux (RHEL) environment.
+![Lab Status](https://img.shields.io/badge/Red_Hat_Labs-All_Passed-brightgreen?style=for-the-badge&logo=redhat)
 
-## Lab Outcomes
-* Developed a multi-play playbook (`internet.yml`).
-* Automated package installation for `httpd`, `mariadb-server`, and `php`.
-* Configured `firewalld` to allow HTTP traffic.
-* Managed system services to ensure they are enabled and running.
-* Performed post-deployment verification using the `uri` module.
+This repository contains automation projects completed during my Red Hat training. Each folder below contains a specific lab with its own detailed documentation.
 
-## Files
-* `internet.yml`: The main playbook containing the automation logic.
-* `ansible.cfg`: Configuration file defining the inventory location and privilege escalation.
-* `inventory`: Defines the managed hosts (`serverb.lab.example.com`).
-* `index.php`: The PHP source file deployed to the web server.
+---
 
-## How to Run
-To execute this playbook in a similar RHEL environment:
-```bash
-ansible-navigator run internet.yml -m stdout
+## 📂 Project Directory
+
+### 🛠️ [Managing Variables and Facts](./data-review/README.md)
+* **Focus**: Security, Ansible Vault, and System Facts.
+* **Outcome**: Automated an Apache web server with encrypted user credentials.
+
+### 🌐 [Implementing Ansible Playbooks](./internet-lab/README.md)
+* **Focus**: Multi-play playbooks and LAMP stack deployment.
+* **Outcome**: Automated a full Web + Database stack with firewall integration.
+
+---
+**Technical Skills**: Ansible, RHEL Administration, Git/GitHub, YAML.
