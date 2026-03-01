@@ -16,9 +16,9 @@ This repository contains automation projects completed during my Red Hat trainin
 * **Focus**: Multi-play playbooks and LAMP stack deployment.
 * **Outcome**: Automated a full Web + Database stack with firewall integration.
 
----
-**Technical Skills**: Ansible, RHEL Administration, Git/GitHub, YAML.
-
 ### 🔐 [Control Review Lab – Apache with SSL](./control-review-lab/README.md)
 * **Focus**: Ansible handlers, conditionals, loops, error handling, and SSL configuration.
 * **Outcome**: Automated deployment and secure configuration of an Apache web server with HTTPS and firewall integration.
+
+---
+**Technical Skills**: Ansible, RHEL Administration, Git/GitHub, YAML.
