@@ -19,6 +19,10 @@ This repository contains automation projects completed during my Red Hat trainin
 ### 🔐 [Control Review Lab – Apache with SSL](./control-review-lab/README.md)
 * **Focus**: Ansible handlers, conditionals, loops, error handling, and SSL configuration.
 * **Outcome**: Automated deployment and secure configuration of an Apache web server with HTTPS and firewall integration.
+* 
+### ⚙️ [Managing Complex Plays and Playbooks](./managing-complex-playbooks/README.md)
+* **Focus**: Organizing complex Ansible playbooks using modular task files and structured project directories.
+* **Outcome**: Implemented reusable tasks, improved playbook readability, and managed automation with project-level configuration.
 
 ---
 **Technical Skills**: Ansible, RHEL Administration, Git/GitHub, YAML.
