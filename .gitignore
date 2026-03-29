@@ -1,4 +1,7 @@
 collections/
 *.log
 *.retry
+*.json
+*.tar.gz
+*.pub
 
