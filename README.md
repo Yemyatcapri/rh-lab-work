@@ -24,7 +24,7 @@ This repository contains automation projects completed during my Red Hat trainin
 * **Focus**: Organizing complex Ansible playbooks using modular task files and structured project directories.
 * **Outcome**: Implemented reusable tasks, improved playbook readability, and managed automation with project-level configuration.
 
-### 🚀 Role Review Lab – Development Web Server
+### 🚀 [Role Review Lab – Development Web Server](./role-review/README.md)
 
 Focus: Ansible roles, role dependencies, SELinux, and system roles
 
