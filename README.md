@@ -27,8 +27,8 @@ This repository contains automation projects completed during my Red Hat trainin
 ### 🚀 Role Review Lab – Development Web Server
 
 Focus: Ansible roles, role dependencies, SELinux, and system roles
-Outcome:
-Built a development web server that mirrors production, allowing multiple users to host content on isolated ports.
+
+Outcome: Built a development web server that mirrors production, allowing multiple users to host content on isolated ports.
 
 ---
 Technical Skills: Ansible, RHEL Administration, Git/GitHub, YAML.
