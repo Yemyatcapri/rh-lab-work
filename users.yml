@@ -1,0 +1,19 @@
+---
+- name: Create multiple local users
+  hosts: webservers
+  vars_files:
+    - vars/users_vars.yml 
+
+  tasks:
+    - name: webadmin 
+      ansible.builtin.group:
+        name: webadmin
+        state: present 
+
+    - name: Create user accounts 
+      ansible.builtin.user:
+        name: "{{ item['username'] }}"
+        groups: webadmin
+      loop: "{{ users }}"
+
+
