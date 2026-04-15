@@ -30,6 +30,11 @@ Focus: Ansible roles, role dependencies, SELinux, and system roles
 
 Outcome: Built a development web server that mirrors production, allowing multiple users to host content on isolated ports.
 
+### 📦 [System Review Lab - Automating Linux Administration tasks](./system-review/README.md)
+
+**Focus:** Core system automation (users, storage, networking, cron)  
+**Outcome:** Automated essential Linux administration tasks using Ansible
+
 ---
 Technical Skills: Ansible, RHEL Administration, Git/GitHub, YAML.
 
