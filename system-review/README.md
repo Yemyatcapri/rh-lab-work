@@ -1,6 +1,4 @@
 
-Readme · MD
-Copy
 
 # RHEL Automation with Ansible 9.0 — System Review Lab
  
