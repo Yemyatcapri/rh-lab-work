@@ -1,7 +1,28 @@
-collections/
+# temp files
+*.swp
 *.log
+
+
+
+# ansible artifacts
+*artifact*.json
+
+
+
+# retry files
 *.retry
-*.json
+
+
+
+# collections archive
 *.tar.gz
+
+
+
+# ssh keys (just in case)
 *.pub
 
+
+
+# optional (ignore installed collections folder)
+collections/
